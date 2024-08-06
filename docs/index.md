@@ -26,6 +26,12 @@
             display: none;
             margin-top: 20px;
         }
+        .buttons {
+            margin-top: 20px;
+        }
+        .buttons button {
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
@@ -48,7 +54,11 @@
             <input type="radio" name="quiz" value="d"> Lisboa
         </label>
     </div>
-    <button onclick="checkAnswer()">Submit</button>
+    <div class="buttons">
+        <button onclick="checkAnswer()">Submit</button>
+        <button onclick="showAnswer()">Mostrar Resposta</button>
+        <button onclick="resetQuiz()">Tentar Novamente</button>
+    </div>
     <div class="result" id="result">
         <p id="resultText"></p>
     </div>
@@ -77,6 +87,29 @@
         }
 
         resultDiv.style.display = 'block';
+    }
+
+    function showAnswer() {
+        const resultDiv = document.getElementById('result');
+        const resultText = document.getElementById('resultText');
+        
+        resultText.textContent = 'A resposta correta é: Paris.';
+        resultText.style.color = 'blue';
+
+        resultDiv.style.display = 'block';
+    }
+
+    function resetQuiz() {
+        const options = document.getElementsByName('quiz');
+        for (const option of options) {
+            option.checked = false;
+        }
+
+        const resultDiv = document.getElementById('result');
+        const resultText = document.getElementById('resultText');
+
+        resultDiv.style.display = 'none';
+        resultText.textContent = '';
     }
 </script>
 
