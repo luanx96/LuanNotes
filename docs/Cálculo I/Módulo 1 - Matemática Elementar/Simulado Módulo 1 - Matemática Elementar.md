@@ -1,4 +1,4 @@
-## <span style="color:rgb(255, 255, 0)">Questão 1</span>
+## Questão 1
 Encontre as soluções da inequação $8 - 3(2k - 1) < 0$ e assinale o menor número inteiro $k$, par, que a satisfaz.
 
 a. 0   
@@ -7,7 +7,7 @@ c. 1
 d. -2
 e. -1 
 
-## <span style="color:rgb(255, 255, 0)">Questão</span> <span style="color:rgb(255, 255, 0)">2</span>
+## Questão 2
 Encontre o conjunto de soluções da inequação $3x - x \leq 3$.
 
 a. $S = \{ x \in \mathbb{R} \mid 3 \le x \le 0 \}$
@@ -22,7 +22,7 @@ e. $S = \{ x \in \mathbb{R} \mid 1 \le x \le 3 \}$
 
 A opção correta é a (c).
 
-## <span style="color:rgb(255, 255, 0)">Questão 3</span>
+## Questão 3
 Seja dada a inequação $(x - 1)(x - 4) \leq 0$. Considerando o produto do primeiro número inteiro da solução e o último número inteiro da solução que a satisfazem. É correto concluir que:
 
 a. O produto pedido é seis.
@@ -35,7 +35,7 @@ d. O produto pedido é 4. ✓
 
 e. A soma de todos eles é nove.
 
-## <span style="color:rgb(255, 0, 0)">Questão 4</span>
+## Questão 4
 Encontre o conjunto de soluções da inequação $x^2 - 6x + 8 < 0$.
 
 a. $S = \{ x \in \mathbb{R} \mid 2 \le x \le 4 \}$
@@ -48,7 +48,7 @@ d. $S = \{ x \in \mathbb{R} \mid x < 2 \}$
 
 e. $S = \{ x \in \mathbb{R} \mid 2 \le x < 4 \}$
 
-## <span style="color:rgb(255, 0, 0)">Questão 5</span>
+## Questão 5
 Encontre as soluções da inequação $3x + 19 < 40$ e diga qual é o primeiro número inteiro que a satisfaz:
 
 a. $x < 7$
@@ -216,3 +216,97 @@ a. Verdadeiro ✓
 
 b. Falso
 ## Questão 20
+
+A solução da inequação $\frac{2x + 1}{x + 2} \le 0$ é?
+
+a. $S = \{ x \in \mathbb{R} \mid -\frac{1}{2} \le x \le 2 \}$
+
+b. $S = \{ x \in \mathbb{R} \mid -2 \le x \le -\frac{1}{2} \}$ ✓
+
+c. $S = \{ x \in \mathbb{R} \mid -2 \le x \le -1 \}$
+
+d. $S = \{ x \in \mathbb{R} \mid -2 < x \le -\frac{1}{2} \}$
+
+## Questão 21
+O conjunto numérico representado graficamente pela parte que está pintada de VERMELHO é:
+![[Pasted image 20240806182627.png]]
+a. $] \infty, -4]$
+
+b. $]-4, +\infty[$ ✓
+
+c. $]-\infty, -4]$
+
+d. $]-\infty, -4[$
+
+## Questão 22
+
+Na reta numerada estão marcados apenas alguns números:
+![[Pasted image 20240806182834.png]]
+O número representado pela fração $\frac{-5}{2}$ se fosse colocado nessa reta, ficaria entre:
+
+a. $0$ e $-1$
+
+b. $-3$ e $-4$
+
+c. $-4$ e $-5$
+
+d. $-2$ e $-3$ ✓
+
+e. $-1$ e $-2$
+
+## Questão 23
+O conjunto $\{ x \in \mathbb{R} \mid x > 0 \}$ é a solução da inequação $50x^3 + 5x^2 - x > 0$?
+
+Escolha uma opção:
+
+Verdadeiro
+
+Falso ✓
+
+## Questão 24 
+Encontre o conjunto de soluções da inequação $(x - 1) \cdot (2 - x) \ge 0$.
+
+a. $S = \{ x \in \mathbb{R} \mid x \leq 1 \}$
+
+b. $S = \{ x \in \mathbb{R} \mid x \geq 2 \}$
+
+c. $S = \{ x \in \mathbb{R} \mid x \leq 1 \, e \, x \geq 2 \}$
+
+d. $S = \{ x \in \mathbb{R} \mid x \geq 1 \, e \, x \leq 2 \}$
+
+e. $S = \{ x \in \mathbb{R} \mid 1 \leq x \leq 2 \}$ ✓
+
+## Questão 25
+O conjunto numérico representado graficamente pela parte que está pintada de VERMELHO é:
+![[Pasted image 20240806183723.png]]
+a. $]-4, +\infty[$
+
+b. $]-\infty, -4[$ ✓
+
+c. $]+\infty, -4]$
+
+d. $]-\infty, -4]$
+
+## Questão 26
+Encontre o conjunto de soluções da inequação $x^2 - 6x + 5 \leq 0$.
+
+a. $S = \{ x \in \mathbb{R} \mid 1 \leq x \leq 5 \}$ ✓
+
+b. $S = \{ x \in \mathbb{R} \mid 1 \leq x = 5 \}$
+
+c. $S = \{ x \in \mathbb{R} \mid \leq x \leq 5 \}$
+
+d. $S = \{ x \in \mathbb{R} \mid \leq x \geq 5 \}$
+
+e. $S = \{ x \in \mathbb{R} \mid 1 \leq x \geq 5 \}$
+
+## Questão 27
+O conjunto numérico representado graficamente pela parte que está pintada de VERMELHO é:
+![[Pasted image 20240806191233.png]]
+a. $[1, 7[$
+
+b. $]1, 7[$ ✓
+
+c. $]1, 7]$
+
+d. $[1, 7]$
