@@ -13,10 +13,12 @@ Um sistema de equações lineares não tem solução quando as equações repres
 
 **Exemplo:** As duas equações abaixo representam retas paralelas que nunca se encontram. Portanto, não há nenhum ponto ($x,y$) que satisfaça ambas as equações simultaneamente. 
  \
-$$  \begin{cases}
+$$  
+\begin{cases}
   x + y = 1 \\
   x + y = 3
-  \end{cases} $$
+\end{cases} 
+$$
   \
 
 #### Uma solução:
