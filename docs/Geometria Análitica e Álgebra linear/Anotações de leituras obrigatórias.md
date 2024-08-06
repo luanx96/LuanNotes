@@ -1,8 +1,10 @@
+
+
 ### Módulo 1
 
 #### Unidade 1 - Operações entre matrizes e discussão de solução de sistemas
 
-[1.1 Introdução aos sistemas de equações lineares (p. 02-07)](app://obsidian.md/1.1%20Introdu%C3%A7%C3%A3o%20aos%20sistemas%20de%20equa%C3%A7%C3%B5es%20lineares%20(p.%2002-07))  
+1.1 Introdução aos sistemas de equações lineares (p. 02-07)
 1.3 Matrizes e operações matriciais (p. 25-29)
 
 #### Unidade 2 - Operações entre vetores e posição relativa entre pontos, retas e planos no espaço
