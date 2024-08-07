@@ -167,3 +167,158 @@ class HelloWorld{
 
 ---
 ### Questão 13
+Claro, aqui está a transcrição da questão:
+
+**Crie uma classe Java com um método main que leia do console seis números inteiros usando a classe Scanner e imprima o maior número inteiro lido inicialmente.**
+
+**Por exemplo:**
+
+![[Pasted image 20240807090419.png]]
+
+**Resposta:**
+
+```java
+import java.util.Scanner;
+
+class MaxNumberFinder {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int i, num;
+        int maxNumber = Integer.MIN_VALUE;
+
+        for (i = 0; i < 6; i++) {
+            num = scan.nextInt();
+            if (num > maxNumber)
+                maxNumber = num;
+        }
+        System.out.println(maxNumber);
+    }
+}
+```
+
+**Entradas e Resultados:**
+![[Pasted image 20240807090357.png]]
+
+---
+### Questão 14 
+
+**A máquina virtual Java é responsável por executar um código em bytecode, que foi anteriormente compilado pelo compilador Java.**
+
+**Escolha uma opção:**
+
+- Verdadeiro ✔
+- Falso
+
+---
+### Questão 15
+
+**Sobre operadores, indique verdadeiro ou falso.**
+
+**O símbolo '+' pode ser considerado operador de concatenação de Strings e operador de soma.**
+
+**Escolha uma opção:**
+
+- Verdadeiro ✔
+- Falso
+
+---
+### Questão 16
+Claro, aqui está a transcrição da questão:
+
+**Qual o resultado após tentar compilar e executar o código abaixo dentro de um método main?**
+
+```java
+String a = "String";
+int b = 3;
+int c = 7;
+System.out.println(a + b + c + a);
+```
+
+**Escolha uma opção:**
+
+- a. String37String ✔
+- b. String10String
+- c. Não compila
+- d. Lança uma exceção
+
+---
+### Questão 17
+
+**Indique se as linguagens a seguir são interpretadas, compiladas ou híbridas.**
+
+- **C++:** Compilada ✔
+- **JavaScript:** Interpretada ✔
+- **PHP:** Interpretada ✔
+- **C#:** Compilada ✔
+- **Java:**
+- **C:** Compilada ✔
+
+---
+
+### Questão 18
+
+**Sobre operadores, indique verdadeiro ou falso.**
+
+**Não existe correspondência para um operador em Java onde os símbolos '=' juntos.**
+
+**Escolha uma opção:**
+
+- Verdadeiro
+- Falso ✔
+
+---
+### Questão 19
+
+Claro, aqui está a transcrição da questão e do código:
+
+**Observe o código abaixo:**
+
+```java
+for (int i = 0; i < 3; i++) {
+    for (int j = 1; j < 3; j++) {
+        if (i % j == 0)
+            continue;
+        else
+            System.out.println("i=" + i + ", j=" + j);
+    }
+}
+```
+
+**O que acontece ao compilar e executar o programa acima?**
+
+- a. i=1, j=1
+- b. i=2, j=2
+- c. Não compila
+- d. i=1, j=2 ✔
+
+---
+### Questão 20
+
+
+**Sobre operadores, indique verdadeiro ou falso.**
+
+**Dois símbolos '|' juntos em sequência representam o operador AND (E lógico).**
+
+**Escolha uma opção:**
+
+- Verdadeiro
+- Falso ✔
+
+---
+### Questão 21
+
+**Qual foi a estratégia adotada pelos projetistas da linguagem Java para torná-la independente de plataforma?**
+
+- a. Java usa o mesmo compilador de C++. Ela faz isso para ter uma execução mais rápida. A interpretação usa o interpretador da linguagem Python pelo mesmo motivo
+- b. Interpretar o código com a interpretadora da máquina virtual Java (JVM)
+- c. Compilar o código para um código intermediário (bytecode) e depois a máquina virtual Java (JVM) interpreta o bytecode ✔
+- d. Java não é independente de plataforma
+---
+### Questão 22
+
+**Qual é o tipo de laço mais indicado quando queremos ler uma quantidade específica de itens, manipulando item por item?**
+
+- a. while
+- b. for ✔
+- c. do...while
+- d. switch
